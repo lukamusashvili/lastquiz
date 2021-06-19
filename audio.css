@@ -1,0 +1,87 @@
+#a1{grid-area:a;}
+#a2{
+    top: 0px;
+    left: 83px;
+}
+#a3{grid-area:c;}
+#a4{
+    top: 0px;
+    left: 198px;
+}
+#a5{grid-area:e;}
+#a6{grid-area:f;}
+#a7{
+    top: 0px;
+    left: 425px;
+}
+#a8{grid-area:h;}
+#a9{
+    top: 0px;
+    left: 541px;
+}
+#a10{grid-area:j;}
+#a11{
+    top: 0px;
+    left: 657px;
+}
+#a12{grid-area:l;}
+
+body{
+    text-align: center;
+    background-color:silver;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: auto;
+}
+
+#whitePiano{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l" /*5*/
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l" /*10*/
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l" /*15*/
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l" /*20*/
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l"
+    "a a a a c c c c e e e e f f f f h h h h j j j j l l l l" /*25*/;
+    grid-gap: 5px;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    width: 57px;
+    height: 250px;
+    color: white;
+    position: absolute;
+    background-color: black;
+}
+
+.key{
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
